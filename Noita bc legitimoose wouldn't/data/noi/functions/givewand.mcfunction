@@ -1,0 +1,1 @@
+give @p warped_fungus_on_a_stick{display:{Name:'{"text":"Wand","color":"light_purple","italic":false}'},HideFlags:4,Unbreakable:1b,noi.wand:1b,Spell:{1:"null",2:"null",3:"null",4:"null",5:"null",6:"null",1att:"null",2att:"null",3att:"null",4att:"null",5att:"null",6att:"null"},Items:{1:{},2:{},3:{},4:{},5:{},6:{}}}
