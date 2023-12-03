@@ -5,10 +5,10 @@ item modify entity @s weapon.mainhand noi:remove_one
 tag @e[tag=current] remove noi.empty
 tag @e[tag=current] add done
 
-execute positioned ~ ~ ~-1.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
-execute positioned ~ ~ ~-2.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
-execute positioned ~ ~ ~-3.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
-execute positioned ~ ~ ~-4.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
-execute positioned ~ ~ ~-5.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
-execute positioned ~ ~ ~-6.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
+execute positioned ~-.5 ~ ~-1.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
+execute positioned ~-.5 ~ ~-2.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
+execute positioned ~-.5 ~ ~-3.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
+execute positioned ~-.5 ~ ~-4.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
+execute positioned ~-.5 ~ ~-5.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
+execute positioned ~-.5 ~ ~-6.5 run tag @e[tag=noi.spellholder,distance=...0001] remove noi.locked
 

@@ -3,6 +3,12 @@
     "#noi:generic_blocks",
     "minecraft:iron_ingot",
     "minecraft:tnt",
-    "minecraft:gunpowder"
+    "minecraft:gunpowder",
+    "#minecraft:flowers",
+    "glow_berries",
+    "#noi:generic_balls",
+    "sponge",
+    "wet_sponge",
+    "golden_carrot"
   ]
 }

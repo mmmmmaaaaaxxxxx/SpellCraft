@@ -1,0 +1,1 @@
+$execute positioned 0.0 0.0 0.0 facing ~$(Motion0) ~$(Motion1) ~$(Motion2) positioned as @s run particle crit

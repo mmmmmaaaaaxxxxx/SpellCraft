@@ -1,12 +1,15 @@
 #yo keep this one at the front
 execute as @a[tag=noi.remove_resistance] run function noi:spell/extra/iron_ingot_1
 
-execute as @a[scores={noi.clicked=1},nbt={SelectedItem:{tag:{noi.wand:1b}}}] at @s positioned ~ ~1 ~ run function noi:spell/init with entity @s SelectedItem.tag.Spell
+execute as @a[scores={noi.clicked=1},nbt={SelectedItem:{tag:{noi.wand:1b}}},tag=!noi.nowand] at @s positioned ~ ~1.5 ~ run function noi:spell/init with entity @s SelectedItem.tag.Spell
 scoreboard players reset @a noi.clicked
 
-execute as @e[type=marker,tag=noi.thrown_block] at @s run function noi:spell/extra/generic_block_tick
-execute as @e[type=marker,tag=noi.thrown_block,predicate=!noi:riding] at @s run function noi:spell/extra/generic_block_trigger_1
+execute as @e[type=marker,tag=noi.bouncy_object,predicate=noi:riding] at @s run function noi:spell/extra/get_vehicle_motion
+execute as @e[type=marker,tag=noi.ball_mod,predicate=noi:riding] at @s run function noi:spell/extra/ball_mod with entity @s data
 
+execute as @e[type=marker,tag=noi.ball_mod,predicate=!noi:riding] run kill
+execute as @e[type=marker,tag=noi.thrown_block,predicate=!noi:riding] at @s run function noi:spell/extra/generic_block_trigger_1
+execute as @e[type=marker,tag=noi.thrown_ball,predicate=!noi:riding] at @s positioned ~ ~ ~ run function noi:spell/extra/generic_ball_trigger_1
 execute as @e[type=marker,tag=noi.const_direction,predicate=!noi:riding] at @s run function noi:spell/extra/const_direction_trigger
 
 execute as @e[type=interaction,nbt={interaction:{}},tag=noi.wandholder] at @s run function noi:altar/wands/main
