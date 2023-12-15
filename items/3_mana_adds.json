@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:iron_ingot",
+        "minecraft:tnt",
+        "minecraft:gunpowder",
+        "#minecraft:flowers",
+        "sponge",
+        "wet_sponge",
+        "golden_carrot",
+        "compass"
+    ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": "this",
+      "score": "noi.x1"
+    },
+    "range": {
+      "min": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "noi.x2"
+      },
+      "max": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "noi.x2"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": "this",
+      "score": "noi.y1"
+    },
+    "range": {
+      "min": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "noi.y2"
+      },
+      "max": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "noi.y2"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": "this",
+      "score": "noi.z1"
+    },
+    "range": {
+      "min": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "noi.z2"
+      },
+      "max": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "noi.z2"
+      }
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "nbt": "wandTitle",
+      "storage": "temp:local",
+      "interpret": true,
+      "color": "light_purple",
+      "italic": false
+    }
+  }
+]
